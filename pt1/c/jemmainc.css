@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;background: rgb(88,98,119);
+    background: linear-gradient(0deg, rgba(88,98,119,1) 9%, rgba(100,115,149,1) 100%);
+}
+.wrap{
+    padding: 25px;
+    height: auto;
+    border-radius: 30px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    text-align: center;
+}
+a{
+    padding: 0 20px;  
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: monospace;
+}
+.f-link{
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+color: white;
+transition: .5s ease;
+}
+.f-link:hover{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #678eb4 0%, #9f8bb3 100%);
+}
+.f-link:active{
+    color: #349e8b;
+}
+
+
+.s-link{
+border-bottom-left-radius: 20px;
+border-top-right-radius: 20px;
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+
+color: white;
+transition: 1s ease-in;
+}
+.s-link:hover{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #b47c5b 0%, #a88c45 100%);
+    
+}
+.s-link:active{
+    background-color: #19232e;
+}
+
+.t-link{
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+background-color: #fffe99;
+background-image: linear-gradient(62deg, #fffe99 0%, #74cf4c 100%);
+color: white;
+transition: 1s ease-in;
+}
+.t-link:hover{
+    background-color: #fffe99;
+    background-image: linear-gradient(62deg, #c0bf71 0%, #589c3a 100%);
+}
+.t-link:active{
+    background-color: #19232e;
+}
+
+.frt-link{
+border-radius: 20px;
+background-color: #92c180;
+background-image: linear-gradient(62deg, #92c180 0%, #4ccfb7 100%);
+color: white;
+transition: 1s ease-in;
+}
+.frt-link:hover{
+    background-color: #92c180;
+    background-image: linear-gradient(62deg, #67885a 0%, #349e8b 100%);
+}
+.frt-link:active{
+    background-color: #19232e;
+}
+

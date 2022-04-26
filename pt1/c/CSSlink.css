@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(88,98,119);
+background: linear-gradient(0deg, rgba(88,98,119,1) 9%, rgba(100,115,149,1) 100%);
+}
+div{
+    padding: 50px;
+    height: auto;
+    border-radius: 30px;
+    text-align: center;
+background-color: #8EC5FC;
+}
+h1{
+    
+    color: white;
+    font: 5rem monospace;
+}
